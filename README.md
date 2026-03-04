@@ -14,13 +14,13 @@ This is a command-line application that simulates a bank system written in Pytho
 
 # Usage
 1. Open command prompt and navigate to the directory where you saved the files.
-2. Run the command >py main.py.
+2. Run the command `py main.py`.
 3. Follow the instruction on-screen to use the app.
 
 # Demo
 Here's an example of how the code works:
 
-'''
+```
 #===========================================#
 #                                           #
 #           Choose Your Action:             #
@@ -248,4 +248,4 @@ Enter your choice: 9
 #===========================================#
 Enter your choice: 8
 Thank you for using the Bank System. Goodbye!
-'''
+```
