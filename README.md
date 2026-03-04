@@ -14,7 +14,7 @@ This is a command-line application that simulates a bank system written in Pytho
 
 # Usage
 1. Open command prompt and navigate to the directory where you saved the files.
-2. Run the command '''py main.py'''.
+2. Run the command >py main.py.
 3. Follow the instruction on-screen to use the app.
 
 # Demo
