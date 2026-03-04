@@ -31,7 +31,7 @@ if __name__ == "__main__":
     dbName = "bank_system"
     serverName = "localhost"
     username = "root"
-    password = "fracote3"
+    password = "password"
 
     # Initialize the database and create necessary tables
     newDB = Database(dbName, serverName, username, password)
@@ -215,4 +215,5 @@ if __name__ == "__main__":
 
     newDB.closeConnection()
     #newDB.deleteDB()
+
     #print(f"Database {newDB.dbName} deleted successfully")
