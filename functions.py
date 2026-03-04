@@ -14,7 +14,6 @@ def create_account(first, last, email, username, password, database, tableName, 
 def login(username, password, database, tableName):
     account = database.fetchData(tableName, {"username": username})
     if account:
-        print(account[0][5])  # Print the password field of the fetched account
         if account[0][5] == password:
             return True
     return False
@@ -71,3 +70,4 @@ def printMenu(loggedIn, username, balance):
     print("#                                           #")
     print("#===========================================#")
     
+
